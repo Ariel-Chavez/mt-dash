@@ -1,0 +1,58 @@
+MT DASH — BRAND COLOR REFERENCE
+=================================
+
+CORE BRAND COLORS
+┌─────────────────────────┬────────────────────────┬──────────────────────┐
+│ Token                   │ Hex                    │ Brand Name           │
+├─────────────────────────┼────────────────────────┼──────────────────────┤
+│ --primary / --accent    │ #f15735                │ Tangerine (hero)     │
+│ --foreground            │ #1a1614                │ Deep Coffee          │
+│ --background / --card   │ #ffffff                │ Clear White          │
+│ --muted / --surface     │ #f4ece1                │ Creamy Off-White     │
+│ --secondary             │ #b5a79a                │ Taupe                │
+│ --muted-foreground      │ #726358                │ Light Brown          │
+│ --border                │ #d9d9d9                │ Light Gray           │
+│ --destructive           │ #dc2626                │ Red                  │
+└─────────────────────────┴────────────────────────┴──────────────────────┘
+
+THEO-SPECIFIC SEMANTIC TOKENS
+┌──────────────────────────┬─────────────────────────────────┬────────────────────┐
+│ Token                    │ Value                           │ Usage              │
+├──────────────────────────┼─────────────────────────────────┼────────────────────┤
+│ --neutral-light          │ #f1d3c5                         │ Light beige        │
+│ --neutral-medium         │ #d9d9d9                         │ Light gray         │
+│ --neutral-dark           │ #b5a79a                         │ Taupe              │
+│ --success                │ #c7faa8                         │ Mint               │
+│ --warning                │ #f59e0b                         │ Amber              │
+│ --info                   │ #a8d0d8                         │ Light cyan         │
+│ --google                 │ #4285F4                         │ Google Blue        │
+│ --google-hover           │ #357ae8                         │ Google Blue hover  │
+│ --theo-text-muted        │ #9F9286                         │ Muted text         │
+│ --theo-text-alpha        │ #1018288C                       │ Text with alpha    │
+│ --theo-table-border      │ #E9DCCB                         │ Table borders      │
+│ --theo-border            │ #E1D3C5                         │ Alt borders        │
+│ --theo-table-hover       │ color-mix(#E9DCCB 30%, white)   │ Table row hover    │
+│ --theo-selection-hover   │ #E1D3C5                         │ Selection hover    │
+└──────────────────────────┴─────────────────────────────────┴────────────────────┘
+
+CHART COLORS
+┌───────────┬──────────┬────────────────────┐
+│ Token     │ Hex      │ Name               │
+├───────────┼──────────┼────────────────────┤
+│ --chart-1 │ #F4ECE1  │ Creamy Off-White   │
+│ --chart-2 │ #E9DCCB  │ Sandy Beige        │
+│ --chart-3 │ #C7B7A3  │ Warm Taupe         │
+│ --chart-4 │ #B5A79A  │ Classic Taupe      │
+│ --chart-5 │ #9C7866  │ Rich Brown         │
+│ --chart-6 │ #211915  │ Deep Espresso      │
+└───────────┴──────────┴────────────────────┘
+
+PROGRESS BAR COLORS
+┌───────────────────────┬──────────┐
+│ Token                 │ Hex      │
+├───────────────────────┼──────────┤
+│ progress-bg-light     │ #F9F9F9  │
+│ progress-bg-dark      │ #B5A79A  │
+│ progress-fill-dark    │ #211915  │
+│ progress-fill-medium  │ #5B463B  │
+└───────────────────────┴──────────┘
